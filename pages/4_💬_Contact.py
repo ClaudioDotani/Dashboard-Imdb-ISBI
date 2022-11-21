@@ -23,7 +23,14 @@ css_prova="""
     background-position: center;
     background-size: cover;
 }
+
 [id="contact"]{
+    font-size: 72px;
+    color: crimson;
+    text-shadow: -1px 0 snow, 0 1px snow, 1px 0 snow, 0 -1px snow;
+}
+
+[id="Mauro Galateo - M63001332"]{
     font-size: 72px;
     color: crimson;
     text-shadow: -1px 0 snow, 0 1px snow, 1px 0 snow, 0 -1px snow;
@@ -68,4 +75,20 @@ st.set_page_config(
 
 
 st.title("Contact")
+st.markdown(css_prova, unsafe_allow_html=True)
+
+
+st.title("Mauro Galateo - M63001332")
+st.markdown(css_prova, unsafe_allow_html=True)
+
+
+st.title("Claudio Dotani - M63001400")
+st.markdown(css_prova, unsafe_allow_html=True)
+
+
+st.title("Gianfranco Foscardi - M63001371")
+st.markdown(css_prova, unsafe_allow_html=True)
+
+
+st.title("Antonio Forino - ")
 st.markdown(css_prova, unsafe_allow_html=True)
